@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    background-color: none;
+    color: inherit;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;   
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+.container1 {
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+
+}
+
+.topo-esquerda {
+    display: flex;
+    align-items: center;
+}
+
+
+.topo {
+    background-color: white;
+    height: 53px;
+    width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.topo ion-icon {
+    height: 23px;
+    width: 23px;
+
+}
+
+.topo img {
+    height: 29px;
+    margin-top: 10px;
+}
+
+.barra-topo {
+    width: 1px;
+    height: 22px;
+    background-color: #dbdbdb;
+    margin: 0 10px;
+}
+
+.img-insta-mobile {
+    display: none;
+}
+
+.pesquisar {
+    display: flex;
+    color: grey;
+    height: 28px;
+    width: 215px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-direita ion-icon {
+    margin-left: 25px;
+}
+
+
+
+
+
+
+.stories-box {
+    width: 614px;
+    height: 118px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    margin-top: 88px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stories-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 13px; 
+    color: #262626; 
+}
+
+
+.stories-background img {
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+}
+
+.stories img {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.stories-box ion-icon {
+    position: absolute;
+    bottom: center;
+    right: 10px;
+    height: 26px;
+    width: 26px;
+    color: white;
+}
+
+.posts {
+    width: 614px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.posts-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 61px;
+    color: #262626;
+    padding: 0 17px;
+}
+
+.posts-top img {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.posts-top ion-icon {
+    color: #262626;
+    width: 4px;
+    height: 4px;
+    margin-left: 2px;
+}
+
+.posts-top div {
+    display: flex;
+    align-items: center;
+}
+
+.posts-photo img {
+    width: 100%;
+}
+
+.posts-icones {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.posts-icones ion-icon{
+    height: 23px;
+    width: 23px;
+}
+
+.top-left ion-icon {
+    margin-right: 15px;
+}
+
+.posts-curtidas {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.posts-curtidas img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin: 0 5px 0 17px;
+}
+
+
+.sidebar {
+    width: 293px;
+    margin-left: 29px;
+    margin-top: 110px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sidebar-perfil {
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar-perfil img {
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;
+}
+
+.sidebar-perfil h4 {
+    color: #262626;
+}
+
+.sidebar-perfil p {
+    color: #8e8e8e;
+    margin-top: 3px;
+}
+
+.sugestoes-topo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.sugestoes-topo h6 {
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+.sugestoes-topo h5 {
+    font-weight: 500;
+    color: #262626;
+}
+
+.sugestoes-base {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 33px;
+    height: 224px;
+}
+
+.sugestoes-base > div {
+    display: flex;
+}
+
+.sugestoes-icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sugestoes-icone img {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}
+
+.sugestoes-username {
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 11px;
+}
+
+.sugestoes-username div {
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sugestoes-username h4 {
+    color: #262626;
+}
+
+.sugestoes-username h5 {
+    color: #8e8e8e;
+}
+
+.sugestoes-seguir h6 {
+    font-weight: 500;
+    color: #139ef2;
+}
+
+.sugestoes-seguir {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.extra h5 {
+    font-size: 11px;
+    color: #c7c7c7;
+    margin-bottom: 18px;
+}
+
+.barra-inferior {
+    display: none;
+}
+
+@media (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 614px) {
+
+    .logo-insta {
+        margin-left: 20px;
+    }
+
+    .img-insta {
+        display: none;
+    }
+
+    .img-insta-mobile {
+        display: initial;
+    }
+
+    .pesquisar {
+        display: none;
+    }
+    .barra-topo {
+        display: none;
+    }
+    .compass {
+        display: none;
+    }
+    .heart {
+        display: none;
+    }
+    .person {
+        display: none;
+    }
+    .paper-plane {
+        margin-right: 20px;
+    } 
+
+    .stories-box {
+        background-color: #fafafa;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 0;
+      }
+
+    .stories-box ion-icon {
+        display: none;
+    }
+
+    .stories-block {
+        background-color: #fafafa;
+    }
+
+    .coluna {
+        padding-bottom: 60px;
+    }
+
+    .barra-inferior {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        background-color: white;
+        height: 54px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-top: 500px;
+    }
+
+    
+}
